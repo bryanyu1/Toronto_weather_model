@@ -1,5 +1,5 @@
 # df<-read.csv("**insert_path_to_csv_file_here**/Toronto_temp_edited.csv", header=T)
-attach(df)
+attach(df) 
 df$Season <- as.factor(df$Season)
 df$Year <- as.factor(df$Year)
 
