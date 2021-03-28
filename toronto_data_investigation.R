@@ -63,7 +63,7 @@ PRESS(model5)
 PRESS(model6)
 PRESS(model7)
 PRESS(model8)
-
+ 
 model1_summ <- summary(model1)
 mean(model1_summ$residuals^2)
 model2_summ <- summary(model2)
