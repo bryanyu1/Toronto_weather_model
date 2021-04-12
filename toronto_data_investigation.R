@@ -2,7 +2,7 @@
 attach(df)
 df$Season <- as.factor(df$Season) 
 df$Year <- as.factor(df$Year)
- 
+
 # Scatterplot of mean temperature vs total precipitation of all data (2013-2018)
 plot(MeanTemp, TotalPrecip, main = 'Precipitation vs. Temperature from 2013-2018', 
      xlab = 'Mean Temperature (C)', ylab = 'Total Precipitation (mm)')
