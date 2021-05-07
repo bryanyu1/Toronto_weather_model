@@ -14,7 +14,7 @@ summary(df)
 cor.test(TotalPrecip,MeanTemp)
 
 # Model Fitting
-summary(lm(TotalPrecip~MeanTemp))
+summary(lm(TotalPrecip~MeanTemp)) 
 
 # Hypothesis Tests
 anova(lm(TotalPrecip~MeanTemp))
